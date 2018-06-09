@@ -1,0 +1,29 @@
+#q1
+year = int(input("enter a year : "))
+if (year % 4) == 0:
+    if (year % 100) == 0:
+        if(year % 400) == 0:
+            print ("{0} is a leap year" .format(year))
+            else :
+            print ("{0} is not a leap year" .format(year))
+            else :
+                print ("{0} is a leap year" .format(year))
+            else :
+                print ("{0} is not a leap year" .format(year))
+            else :
+#q2
+a=int(input("value1"))
+      b=int(input("value2"))
+        
+if ( a == b ):
+ print ("dimensions of a square  ")
+else :
+    print ("dimensions of a rectangle")
+   
+#q3
+a=int(input("age 1"))
+      b=int(input("age 2"))
+            c=int(input("age 3"))
+d=[a,b,c]
+max(d)
+min(d)
